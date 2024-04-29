@@ -1,0 +1,18 @@
+Invoice Number: 123456
+Invoice Date: 2024-04-27
+User Name: [user]
+
+Customer Information:
+Name: [user]
+
+Total: [total]
+
+Payment Information:
+Payment Method: Credit Card
+Transaction ID: TX123456789
+Payment Date: 2024-04-27
+
+Notes:
+ Thank you for your business! Please contact us if you have any questions or concerns.
+ Payment is due within 30 days of the invoice date.
+ Late payments may incur additional charges.

@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "./app/src/opening_programs",
+        "./app/src/navegation_flows",
+        "./app/src/Utils",
+        "./app/src/navegation_flows/word",
+        "./app/src/navegation_flows/chrome"
+    ]
+}
