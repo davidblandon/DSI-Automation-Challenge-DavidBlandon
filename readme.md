@@ -40,3 +40,5 @@ venv/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
+
+Now that we have installed the project and its requirements you can check the general information [here](app/src/README.md)
