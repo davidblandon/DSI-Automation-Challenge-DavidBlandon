@@ -67,3 +67,5 @@ The app is divided by 5 modules:
 - Utils: Gives the logic of tesseract extract texts from images. It is used by multiple functions in all the project
 
 For more information check the documentation of each module
+
+**NOTE: In each module there will be some files as "base.py" or "path.py". These files provide the configuration of the path of each module, just ignore them.**
