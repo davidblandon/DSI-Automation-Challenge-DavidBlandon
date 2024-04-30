@@ -42,3 +42,11 @@ pip install -r requirements.txt
 ```
 
 Now that we have installed the project and its requirements you can check the general information [here](app/src/README.md)
+
+## License
+
+This project is licensed under terms that allow free use for evaluation purposes by DSI (Design Systems Inno). You are permitted to use, copy, and distribute the content in this repository for evaluation and educational purposes.
+
+For additional permissions or to use the content in other ways, please contact the project maintainers
+
+**Important**: This license does not grant permission for commercial use or redistribution for profit. Please refer to the LICENSE file for more details on the terms and conditions.
