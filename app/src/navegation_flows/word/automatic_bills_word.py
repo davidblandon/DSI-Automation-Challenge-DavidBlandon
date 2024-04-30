@@ -18,7 +18,7 @@ def start_bills(users_total:dict):
         pyautogui.write("Invoice user " + str(user))
         time.sleep(1)
         save_path = os.path.join(os.path.dirname(__file__), 'words_generated')
-        res = pyautogui.locateOnScreen(f"app/src/opening_programs/identifiers/windows_explorer.png", confidence=0.7)
+        res = pyautogui.locateOnScreen(f"app/src/opening_programs/identifiers/windows_explorer.png", confidence=0.5)
         pyautogui.moveTo(res)
         time.sleep(0.5)
         pyautogui.click()
@@ -38,6 +38,5 @@ def start_bills(users_total:dict):
         pyautogui.press("backspace")
         time.sleep(1)
 
-start_bills({"mAik":123})
 
         

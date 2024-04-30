@@ -26,5 +26,3 @@ def open_program(open_app:str):
     installed(open_app)
 
     pyautogui.press("enter")  # Press enter to open the program
-
-

@@ -32,5 +32,4 @@ def capture_followers(instagram_user):
     followers_string =  image_convert_str(route_image).strip()
     return followers_string
 
-print(capture_followers(""))
 

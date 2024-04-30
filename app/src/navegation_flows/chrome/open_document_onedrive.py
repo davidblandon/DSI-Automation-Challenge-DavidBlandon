@@ -20,5 +20,3 @@ def open(document_name:str):
     pyautogui.moveTo(pos)
     pyautogui.moveRel(0, 50)
     pyautogui.tripleClick()
-
-open("Derecho")

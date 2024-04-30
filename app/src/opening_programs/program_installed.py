@@ -6,7 +6,7 @@ import pyautogui
 def installed(program):
     pyautogui.useImageNotFoundException()
     try:
-        location = pyautogui.locateOnScreen(f"app/src/opening_programs/identifiers/{program}.png", confidence=0.9)
+        location = pyautogui.locateOnScreen(f"app/src/opening_programs/identifiers/{program}.png", confidence=0.7)
     except pyautogui.ImageNotFoundException:
         pyautogui.alert("The program was not found, please install it")
         sys.exit(1)

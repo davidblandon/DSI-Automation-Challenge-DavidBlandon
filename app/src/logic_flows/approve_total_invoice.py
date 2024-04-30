@@ -13,4 +13,3 @@ def approve(invoice_name:str, financial_email:str):
     else:
         pyautogui.alert("The invoice is now approved")
 
-approve("Invoice2.png", "dablandonr@eafit.edu.co") 

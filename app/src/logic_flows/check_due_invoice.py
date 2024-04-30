@@ -18,4 +18,3 @@ def due_date(invoice_name:str, form_url:str):
     else:
         pyautogui.alert("The invoice is on date to be payed")
     
-due_date("Invoice3.png", "https://forms.office.com/r/hXc10CxTBC?origin=lprLink")

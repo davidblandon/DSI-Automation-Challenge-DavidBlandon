@@ -4,7 +4,7 @@ import pyautogui,sys
 def check_screen(identifier:str):
     pyautogui.useImageNotFoundException()
     try:
-        location = pyautogui.locateOnScreen(f"app\src\opening_programs\identifiers\{identifier}", confidence=0.8)
+        location = pyautogui.locateOnScreen(f"app\src\opening_programs\identifiers\{identifier}", confidence=0.5)
         print('Program found')
     except pyautogui.ImageNotFoundException:
         pyautogui.alert(f"The {identifier} image has not been found, check if the programs or the pages are loading properly\n For more information check the documentation")
