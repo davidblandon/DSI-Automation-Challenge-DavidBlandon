@@ -7,7 +7,7 @@ The objective of the app is do RPA with python. The project was developed with m
 Some of the common errors you may encounter could be:
 
 - Different screen size: A different size of the screen can cause the position (x,y) of some commands be different than the original of my computer. This allows the app to click and move to positions with no correct values
-- Use of another OS: Every OS has a different GUI, if you are working with other OS the app could have serious problems to reach some predetermined images it has to locate
+- Use of another OS: Every OS has a different GUI, if you are working with other OS the app could have serious problems to reach some predetermined images it has to locate. I recommend check the configuration of the screen in the [documentation provided](../../Configuration%20of%20your%20screen%20to%20run%20the%20project.pdf) to avoid errors
 - Different version of the programs: If you use a different version of word or chrome par example, it can have different location of the buttons the app encounters.
 - Not be logged in the plataforms of use: If you are not currently logged in the platforms we required such as: outlook, onedrive or instagram the app will not work
 
